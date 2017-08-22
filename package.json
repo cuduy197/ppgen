@@ -1,0 +1,39 @@
+{
+  "name": "ppgen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cuduy197",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "bin": {
+    "ppgen": "index.js",
+    "pr": "index.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.1",
+    "handlebars": "^4.0.10",
+    "ora": "^1.3.0"
+  },
+  "description": "Tool for generator pags, route, component in React, Preact",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "react",
+    "preact"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuduy197/ppgen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cuduy197/ppgen/issues"
+  },
+  "homepage": "https://github.com/cuduy197/ppgen#readme"
+}
